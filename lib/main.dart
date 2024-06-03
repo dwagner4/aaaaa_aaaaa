@@ -25,49 +25,49 @@ class XylophoneApp extends StatelessWidget {
                   onPressed: (){playSound(1);}, 
                   child: Text(''),
                   style: const ButtonStyle(
-                    backgroundColor: MaterialStatePropertyAll<Color>(Colors.red),
+                    backgroundColor: WidgetStatePropertyAll<Color>(Colors.red),
                   ),
               ),
               TextButton(
                   onPressed: (){playSound(2);}, 
                   child: Text(''),
                   style: const ButtonStyle(
-                    backgroundColor: MaterialStatePropertyAll<Color>(Colors.orange),
+                    backgroundColor: WidgetStatePropertyAll<Color>(Colors.orange),
                   ),
               ),
               TextButton(
                   onPressed: (){playSound(3);}, 
                   child: Text(''),
                   style: const ButtonStyle(
-                    backgroundColor: MaterialStatePropertyAll<Color>(Colors.yellow),
+                    backgroundColor: WidgetStatePropertyAll<Color>(Colors.yellow),
                   ),
               ),
-              OutlinedButton(
+              TextButton(
                   onPressed: (){playSound(4);}, 
                   child: Text(''),
                   style: const ButtonStyle(
-                    backgroundColor: MaterialStatePropertyAll<Color>(Colors.green),
+                    backgroundColor: WidgetStatePropertyAll<Color>(Colors.green),
                   ),
               ),
               TextButton(
                   onPressed: (){playSound(5);}, 
                   child: Text(''),
                   style: const ButtonStyle(
-                    backgroundColor: MaterialStatePropertyAll<Color>(Colors.teal),
+                    backgroundColor: WidgetStatePropertyAll<Color>(Colors.teal),
                   ),
               ),
               TextButton(
                   onPressed: (){playSound(6);}, 
                   child: Text(''),
                   style: const ButtonStyle(
-                    backgroundColor: MaterialStatePropertyAll<Color>(Colors.blue),
+                    backgroundColor: WidgetStatePropertyAll<Color>(Colors.blue),
                   ),
               ),
               TextButton(
                   onPressed: (){playSound(7);}, 
                   child: Text(''),
                   style: const ButtonStyle(
-                    backgroundColor: MaterialStatePropertyAll<Color>(Colors.purple),
+                    backgroundColor: WidgetStatePropertyAll<Color>(Colors.purple),
                   ),
               ),
             ]
